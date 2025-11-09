@@ -1,0 +1,20 @@
+{
+  "inbound": {
+    "socks5": {
+      "enabled": true,
+      "listen": "127.0.0.1:1080"
+    },
+    "http": {
+      "enabled": false,
+      "listen": "127.0.0.1:8080"
+    }
+  },
+  "outbound": {
+    "shadowsocks": {
+      "server": "your-server.com:8388",
+      "method": "aes-256-gcm",
+      "password": "your-password-here"
+    }
+  }
+}
+
